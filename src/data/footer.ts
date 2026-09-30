@@ -70,8 +70,8 @@ export const footerColumns: FooterColumnData[] = [
 
 export const contact = {
   email: 'support@margsathi.com',
-  phoneDisplay: '+91 98765 43210',
-  phoneHref: 'tel:+919876543210',
+  phoneDisplay: '+91 9305215001',
+  phoneHref: 'tel:+919305215001',
   location: 'Jalandhar, Punjab, India',
   mapHref: 'https://www.google.com/maps/search/?api=1&query=Jalandhar%2C%20Punjab%2C%20India',
 };
