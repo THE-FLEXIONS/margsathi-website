@@ -15,9 +15,8 @@ export interface JourneyStepData {
   description: string[];
   tone: Tone;
   visual: StepVisual;
-  /** Desktop fine-tuning from the reference: header drop and visual drop, in px at 1536w. */
+  /** Desktop fine-tuning from the reference: header drop in px at 1536w. */
   headerOffset: number;
-  visualOffset: number;
   /** Visual width as a share of its column, from the reference. */
   visualWidth: string;
 }
@@ -30,7 +29,6 @@ export const journeySteps: JourneyStepData[] = [
     tone: 'blue',
     visual: 'plan',
     headerOffset: 11,
-    visualOffset: 24,
     visualWidth: '71.9%',
   },
   {
@@ -40,7 +38,6 @@ export const journeySteps: JourneyStepData[] = [
     tone: 'green',
     visual: 'start',
     headerOffset: 11,
-    visualOffset: 6,
     visualWidth: '72.8%',
   },
   {
@@ -50,7 +47,6 @@ export const journeySteps: JourneyStepData[] = [
     tone: 'orange',
     visual: 'connected',
     headerOffset: 0,
-    visualOffset: 0,
     visualWidth: '72.5%',
   },
   {
@@ -60,7 +56,6 @@ export const journeySteps: JourneyStepData[] = [
     tone: 'purple',
     visual: 'support',
     headerOffset: 11,
-    visualOffset: 4,
     visualWidth: '76.7%',
   },
   {
@@ -70,7 +65,6 @@ export const journeySteps: JourneyStepData[] = [
     tone: 'blue',
     visual: 'arrive',
     headerOffset: 13,
-    visualOffset: 24,
     visualWidth: '88.3%',
   },
 ];

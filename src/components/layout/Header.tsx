@@ -42,7 +42,7 @@ export default function Header() {
         </ul>
       </nav>
 
-      <ArrowPillButton label="Explore the Solution" href="#solution" variant="navy" className="hidden lg:inline-flex" />
+      <ArrowPillButton label="Explore the Solution" href="#solution" variant="navy" className="!hidden lg:!inline-flex" />
 
       <button
         type="button"
