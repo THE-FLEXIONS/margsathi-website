@@ -1,4 +1,5 @@
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 import HeroSection from './components/home/HeroSection';
 import WhyItMattersSection from './components/home/WhyItMattersSection';
 import HowItWorksSection from './components/home/HowItWorksSection';
@@ -18,6 +19,7 @@ export default function App() {
         <WhoWeServeSection />
         <EarlyFeedbackSection />
       </main>
+      <Footer />
     </div>
   );
 }
