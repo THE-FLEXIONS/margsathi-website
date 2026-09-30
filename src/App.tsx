@@ -2,6 +2,7 @@ import Header from './components/layout/Header';
 import HeroSection from './components/home/HeroSection';
 import WhyItMattersSection from './components/home/WhyItMattersSection';
 import HowItWorksSection from './components/home/HowItWorksSection';
+import KeyFeaturesSection from './components/home/KeyFeaturesSection';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <HeroSection />
         <WhyItMattersSection />
         <HowItWorksSection />
+        <KeyFeaturesSection />
       </main>
     </div>
   );
