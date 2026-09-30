@@ -3,7 +3,7 @@ import FeatureGrid from './FeatureGrid';
 import FeaturesLink from './FeaturesLink';
 import KeyFeaturesVisual from './KeyFeaturesVisual';
 import ImpactStrip from './ImpactStrip';
-import { keyFeaturesCopy } from '../../data/keyFeatures';
+import { impact, keyFeaturesCopy } from '../../data/keyFeatures';
 import { fadeUp } from '../../lib/motion';
 
 export default function KeyFeaturesSection() {
@@ -44,7 +44,12 @@ export default function KeyFeaturesSection() {
         </div>
 
         <div className="mt-10 xl:mt-[22px] xl:mr-[3.3%] xl:-ml-[2.15%]">
-          <ImpactStrip />
+          <ImpactStrip
+            {...impact}
+            introClassName="xl:w-[338px]"
+            columnsClassName="xl:grid-cols-[245fr_247fr_275fr_256fr]"
+            className="xl:min-h-[185px] xl:py-[24px]"
+          />
         </div>
       </div>
     </section>

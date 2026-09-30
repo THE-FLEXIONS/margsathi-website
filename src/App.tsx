@@ -3,6 +3,8 @@ import HeroSection from './components/home/HeroSection';
 import WhyItMattersSection from './components/home/WhyItMattersSection';
 import HowItWorksSection from './components/home/HowItWorksSection';
 import KeyFeaturesSection from './components/home/KeyFeaturesSection';
+import WhoWeServeSection from './components/home/WhoWeServeSection';
+import EarlyFeedbackSection from './components/home/EarlyFeedbackSection';
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
         <WhyItMattersSection />
         <HowItWorksSection />
         <KeyFeaturesSection />
+        <WhoWeServeSection />
+        <EarlyFeedbackSection />
       </main>
     </div>
   );
