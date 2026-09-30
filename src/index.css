@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy: #13254a;
+  --color-navy-deep: #0f1f3f;
+  --color-orange: #ff6417;
+  --color-orange-hover: #f05a0c;
+  --color-green: #17a673;
+  --color-green-light: #2cc28a;
+  --color-mint: #e8f6ee;
+  --color-mint-strong: #d3efdf;
+  --color-text-primary: #13254a;
+  --color-text-secondary: #5f6f8a;
+  --color-text-muted: #8a97ad;
+  --color-border: #e3e8f0;
+  --color-border-strong: #cfd6e2;
+  --color-surface: #ffffff;
+  --color-surface-page: #fbfcfd;
+  --color-surface-card: #f6f8fa;
+
+  --color-icon-blue: #2f6bf2;
+  --color-icon-blue-bg: #eaf1ff;
+  --color-icon-green-bg: #e3f6ec;
+  --color-icon-orange-bg: #fff0e6;
+  --color-icon-purple: #7c4ddf;
+  --color-icon-purple-bg: #f1ebff;
+  --color-icon-red: #e5484d;
+  --color-icon-red-bg: #fdecec;
+
+  --color-soft-blue: #e7f0fa;
+  --color-soft-blue-strong: #dce9f7;
+  --color-strip: #f1f5fa;
+  --color-map-water: #b9d7f2;
+
+  --color-phone-bezel: #0d0f14;
+  --color-phone-screen: #f7f9fc;
+  --color-map-base: #edf1f6;
+  --color-map-block: #e3e9f1;
+  --color-scene-warm: #e9dcc4;
+  --color-scene-shade: #5b4d3e;
+
+  --shadow-card: 0 10px 30px -12px rgb(19 37 74 / 0.18), 0 2px 6px rgb(19 37 74 / 0.05);
+  --shadow-phone: 0 40px 80px -20px rgb(15 31 63 / 0.45), 0 12px 24px -8px rgb(15 31 63 / 0.25);
+  --shadow-cta: 0 12px 24px -10px rgb(255 100 23 / 0.55);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-text-primary);
+    background: var(--color-surface-page);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: 3px;
+  }
+}
