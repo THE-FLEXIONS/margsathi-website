@@ -2,7 +2,7 @@ export default function Logo() {
   return (
     <a href="#home" className="flex items-center gap-3" aria-label="MARGSATHI home">
       <img
-        src="/assets/margsathi-logo-mark.webp"
+        src="https://res.cloudinary.com/cyymn1yh/image/upload/v1791140285/margsathi_logo-removebg-preview.png"
         alt=""
         width={62}
         height={50}

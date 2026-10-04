@@ -5,7 +5,7 @@ export default function FooterBrand() {
   return (
     <div className="lg:pr-8">
       <a href="#home" className="flex items-center gap-[16px]" aria-label="MARGSATHI home">
-        <img src="/assets/footer/margsathi-logo-mark-lg.webp" alt="" width={108} height={78} className="h-[52px] w-auto sm:h-[76px]" />
+        <img src="https://res.cloudinary.com/cyymn1yh/image/upload/v1791140285/margsathi_logo-removebg-preview.png" alt="" width={108} height={78} className="h-[52px] w-auto sm:h-[76px]" />
         <span className="text-[27px] font-extrabold tracking-[-0.01em] text-navy sm:text-[36px]">MARGSATHI</span>
       </a>
       <p className="mt-[20px] max-w-[340px] text-[16px] sm:mt-[28px] sm:text-[17px] leading-[1.38] text-text-secondary xl:text-[18.5px]">
