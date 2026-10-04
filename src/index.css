@@ -60,6 +60,12 @@
   html {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    scroll-padding-top: 72px;
+  }
+  @media (min-width: 64rem) {
+    html {
+      scroll-padding-top: 80px;
+    }
   }
   body {
     font-family: var(--font-sans);
